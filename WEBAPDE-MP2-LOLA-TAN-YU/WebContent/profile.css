@@ -1,0 +1,37 @@
+.profpic {
+    display:block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dp {
+	border-radius: 50px;
+}
+
+.description {
+	font-family: "Georgia", serif;
+	display:block;
+    text-align: center;
+    margin: 50px; 
+}
+
+.edit {
+	background-color: #000000;
+}
+
+.transbox {
+	font-family: "Georgia", serif;
+	background-color: #000000;
+	display: inline-block;
+	border-radius:25px;
+}
+
+.transbox p {
+	font-weight: bold;
+	color: #ffffff;
+	opacity: 1;
+}
+
+.transbox:hover {
+	opacity: 0.5;
+}

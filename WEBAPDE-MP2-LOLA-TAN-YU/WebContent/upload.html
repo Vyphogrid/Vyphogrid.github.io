@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Upload a Photo</title>
+<link rel="stylesheet" type ="text/css" href="upload.css">
+</head>
+<body>
+	<div id="uploadMain" style="text-align: center;">
+		<div class="preview">
+		</div>
+		<br>
+		Title: &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="title" />
+		<br>
+		<br>
+		Description: <input type="text" name="description" />
+		<br>
+		<br>
+		Add Tags: <input type="text" name="tags" />
+		<br>
+		<br>
+		<div class="buttonOptions">
+			<button class="button">Choose Photo</button>
+            <input onclick="change()" type="button" id="buttonP" 
+            	   class="button" value="Private"></input>
+            <a href="photo_feed.jsp"><button class="button">Cancel</button></a>
+            <a href="photo_feed.jsp"><button class="button">Finish</button></a>
+		</div>
+	</div>
+<script>
+function change() {
+    var elem = document.getElementById("buttonP");
+    if (elem.value=="Private") 
+    	elem.value = "Public";
+    else elem.value = "Private";
+}
+</script>
+</body>
+</html>
