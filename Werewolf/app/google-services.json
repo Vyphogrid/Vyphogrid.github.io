@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137432508767",
+    "firebase_url": "https://werewolf-f70bf.firebaseio.com",
+    "project_id": "werewolf-f70bf",
+    "storage_bucket": "werewolf-f70bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137432508767:android:3b2a241b8831be3a",
+        "android_client_info": {
+          "package_name": "edu.dlsu.mobapde.werewolf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137432508767-ehfknsbhf33b837s2vhp48q2fc4panav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.dlsu.mobapde.werewolf",
+            "certificate_hash": "17debc1887d584bbf2f11dbe3e27e1f9ef9629e8"
+          }
+        },
+        {
+          "client_id": "137432508767-37os95khv8job0ehis11km8eml83ar1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKpt24Q2C8PEATgEvv15Wvxri0LBekvZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137432508767-37os95khv8job0ehis11km8eml83ar1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
